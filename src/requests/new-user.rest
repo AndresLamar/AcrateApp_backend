@@ -1,0 +1,8 @@
+POST http://localhost:3003/api/user
+Content-Type: application/json
+
+{
+  "username": 1001065832,
+  "name": "Andres Felipe Lamar Palencia",
+  "password": "1001065832"
+}

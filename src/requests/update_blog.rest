@@ -1,0 +1,10 @@
+PUT http://localhost:3003/api/blogs/6483594c73558da4acdd4b44
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNjYXIiLCJpZCI6IjY0ODQ4YTYxNzZmNWI4NGYzMDA0ZmNjOSIsImlhdCI6MTY4NjY4Nzk2OX0.UjCEWuhvm9JkcP9I7Pwlr46nPiCtvAPdlKHpQlKxlS8
+
+{
+  "title": "Exctracting token from middleware", 
+  "author": "Scarlxrd ",
+  "url": "www.scar.com ",
+  "likes": 0
+}
