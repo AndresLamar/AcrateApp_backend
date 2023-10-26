@@ -13,7 +13,7 @@ usersRouter.post('/', async (request, response) => {
     return response.status(400).json({ error: JSON.parse(result.error.message) })
   }
 
-  const { username, name, password } = request.body
+  const { username, name, password, codigo_estudiantil } = request.body
 
   if (!password) {
     return response.status(400).json({
@@ -23,12 +23,19 @@ usersRouter.post('/', async (request, response) => {
     return response.status(400).send({ error: 'password length less than 7' })
   }
 
+  if (!codigo_estudiantil) {
+    return response.status(400).json({
+      error: 'codigo estudiantil required'
+    })
+  }
+
   const saltRounds = 10
   const passwordHash = await bcrypt.hash(password, saltRounds)
 
   const user = new User({
     username,
     name,
+    codigo_estudiantil,
     passwordHash
   })
 

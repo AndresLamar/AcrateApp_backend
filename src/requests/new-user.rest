@@ -3,7 +3,8 @@ POST http://localhost:3003/api/user
 Content-Type: application/json
 
 {
-  "username": 1100402605,
-  "name": "Camilo Contreras ",
-  "password": "1100402605"
+  "username": 1100402606,
+  "name": "Luis Bustamante",
+  "password": "1100402606",
+  "codigo_estudiantil": "023562087"
 }
