@@ -2,6 +2,7 @@ import bcrypt from 'bcrypt'
 import express from 'express'
 import { User } from '../models/user.js'
 import { validateUser } from '../schemas/users.js'
+import { userExtractor } from '../utils/middleware.js'
 
 const usersRouter = express.Router()
 
@@ -43,8 +44,10 @@ usersRouter.post('/', async (request, response) => {
   response.status(201).json(savedUser)
 })
 
-usersRouter.get('/', async (request, response) => {
-  const users = await User.find({}).populate('courses')
+usersRouter.get('/', userExtractor, async (request, response) => {
+  const user = request.user
+  const username = user.username
+  const users = await User.find({ username }).populate('courses')
 
   response.json(users)
 })
