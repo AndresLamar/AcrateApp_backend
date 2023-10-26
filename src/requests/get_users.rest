@@ -1,1 +1,1 @@
-GET http://localhost:3003/api/user
+GET https://acrateapp-backend-dev-tnzm.2.ie-1.fl0.io/api/user

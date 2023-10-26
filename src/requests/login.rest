@@ -1,7 +1,7 @@
-POST http://localhost:3003/api/login 
+POST https://acrateapp-backend-dev-tnzm.2.ie-1.fl0.io/api/login
 Content-Type: application/json
 
 {
-  "username": "1001065832",
-  "password": "1001065832"
+  "username": "1100402604",
+  "password": "1100402604"
 }

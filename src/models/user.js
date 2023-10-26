@@ -11,6 +11,10 @@ const userSchema = mongoose.Schema({
   },
   name: String,
   passwordHash: String,
+  codigo_estudiantil: {
+    type: String,
+    unique: true
+  },
   courses: [
     {
       type: mongoose.Schema.Types.ObjectId,

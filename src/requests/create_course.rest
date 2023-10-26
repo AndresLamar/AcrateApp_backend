@@ -1,22 +1,22 @@
-POST http://localhost:3003/api/courses
+POST https://acrateapp-backend-dev-tnzm.2.ie-1.fl0.io/api/courses
 Content-Type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6MTAwMTA2NTgzMiwiaWQiOiI2NTM1NzkyNjU3MWY4OTllMGFmNTFhM2UiLCJpYXQiOjE2OTgwMDMyNDZ9.IMKSj3naC-zm8EYJm30kKHNfcvQmc36f9po0hHfMNN8
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6MTEwMDQwMjYwNCwiaWQiOiI2NTM5M2JlZmNkYmEyMGVhYTE2ZTU5OWUiLCJpYXQiOjE2OTgyNDk3NDJ9.Gez37xLDIV0i7FI7ev2RmkwlvR60bx8SU3LgoGDLqx0
 
 {
-  "nombre": "Emprendimiento",
+  "nombre": "ESTADISTICA II",
   "semestre": 8,
-  "nombre_profesor": "Anibal Lopez",
-  "aula": "B007",
-  "nota_corte_1": 4.8,
-  "nota_corte_2": 4.8,
+  "nombre_profesor": "RANGEL MANCHEGO EDER DAVID",
+  "aula": "B006",
+  "nota_corte_1": 3.0,
+  "nota_corte_2": 4.0,
   "horario": {
     "dia": "Lunes",
-    "horainicio": "10:45",
-    "horafin": "12:15"
+    "horainicio": "14:15PM",
+    "horafin": "15:45"
   },
   "programacion_parciales": {
-    "parcial_1": "2023-09-11",
-    "parcial_2": "2023-11-13"
+    "parcial_1": "2023-09-18",
+    "parcial_2": "2023-11-20"
   }
 }
 

@@ -1,8 +1,9 @@
+# POST https://acrateapp-backend-dev-tnzm.2.ie-1.fl0.io/api/user
 POST http://localhost:3003/api/user
 Content-Type: application/json
 
 {
-  "username": 1001065832,
-  "name": "Andres Felipe Lamar Palencia",
-  "password": "1001065832"
+  "username": 1100402605,
+  "name": "Camilo Contreras ",
+  "password": "1100402605"
 }
