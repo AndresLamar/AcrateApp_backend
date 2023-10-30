@@ -2,3 +2,7 @@
 
 GET http://localhost:3003/api/user
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6MTAwMTA2NTgzMiwiaWQiOiI2NTM1NzkyNjU3MWY4OTllMGFmNTFhM2UiLCJpYXQiOjE2OTgzNTI2NTJ9.bHFxT5DvI3kZqTORifQDSqVHERQAGFfRn3TXMXR8cTc
+
+###
+GET https://backend-acrateapp.onrender.com/api/user
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6MTAwMTA2NTgzMiwiaWQiOiI2NTM1NzkyNjU3MWY4OTllMGFmNTFhM2UiLCJpYXQiOjE2OTg0MzYyMjJ9.KlckHj74Mu5U1kKmELz0lmmtwOw8po2tmlzjQeMxwEg

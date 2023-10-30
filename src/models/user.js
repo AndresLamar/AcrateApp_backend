@@ -15,6 +15,14 @@ const userSchema = mongoose.Schema({
     type: String,
     unique: true
   },
+  facultad: {
+    type: String,
+    required: true
+  },
+  carrera: {
+    type: String,
+    required: true
+  },
   courses: [
     {
       type: mongoose.Schema.Types.ObjectId,

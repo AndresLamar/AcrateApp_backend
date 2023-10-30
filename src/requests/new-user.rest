@@ -6,5 +6,7 @@ Content-Type: application/json
   "username": 1100402606,
   "name": "Luis Bustamante",
   "password": "1100402606",
-  "codigo_estudiantil": "023562087"
+  "codigo_estudiantil": "023562087",
+  "facultad": "Facultad Ciencias de la Ingeniería",
+  "carrera": "Ingeniería en Sistemas"
 }

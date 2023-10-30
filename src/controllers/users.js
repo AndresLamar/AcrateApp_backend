@@ -14,7 +14,7 @@ usersRouter.post('/', async (request, response) => {
     return response.status(400).json({ error: JSON.parse(result.error.message) })
   }
 
-  const { username, name, password, codigo_estudiantil } = request.body
+  const { username, name, password, codigo_estudiantil, facultad, carrera } = request.body
 
   if (!password) {
     return response.status(400).json({
@@ -37,6 +37,8 @@ usersRouter.post('/', async (request, response) => {
     username,
     name,
     codigo_estudiantil,
+    facultad,
+    carrera,
     passwordHash
   })
 

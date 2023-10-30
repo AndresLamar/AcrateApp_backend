@@ -12,7 +12,9 @@ const userSchema = z.object({
   password: z.string(),
   codigo_estudiantil: z.string({
     required_error: 'codigo estudiantil is required.'
-  })
+  }),
+  facultad: z.string(),
+  carrera: z.string()
 })
 
 export function validateUser (input) {

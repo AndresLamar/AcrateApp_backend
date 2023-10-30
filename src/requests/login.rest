@@ -6,6 +6,15 @@ Content-Type: application/json
   "password": "1001065832"
 }
 
+###
+POST https://backend-acrateapp.onrender.com/api/login
+Content-Type: application/json
+
+{
+  "username": "1001065832",
+  "password": "1001065832"
+}
+
 # {
 #   "username": "1100402604",
 #   "password": "1100402604"
